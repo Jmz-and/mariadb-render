@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: mariadb-practica
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: MYSQL_ROOT_PASSWORD
+        value: alumnoroot
+      - key: MYSQL_DATABASE
+        value: practica_db
+      - key: MYSQL_USER
+        value: jimenez
+      - key: MYSQL_PASSWORD
+        value: alumno
