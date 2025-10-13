@@ -6,11 +6,11 @@ services:
     dockerfilePath: Dockerfile
     autoDeploy: true
     envVars:
-      - key: MYSQL_ROOT_PASSWORD
+      - key: MARIADB_ROOT_PASSWORD
         value: alumnoroot
-      - key: MYSQL_DATABASE
+      - key: MARIADB_DATABASE
         value: practica_db
-      - key: MYSQL_USER
+      - key: MARIADB_USER
         value: jimenez
-      - key: MYSQL_PASSWORD
+      - key: MARIADB_PASSWORD
         value: alumno
