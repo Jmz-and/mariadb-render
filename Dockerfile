@@ -1,8 +1,8 @@
 FROM mariadb:latest
 
-ENV MYSQL_ROOT_PASSWORD=TuPasswordSegura
+ENV MYSQL_ROOT_PASSWORD=alumnoroot
 ENV MYSQL_DATABASE=practica_db
-ENV MYSQL_USER=andrea
-ENV MYSQL_PASSWORD=TuPasswordSegura
+ENV MYSQL_USER=jimenez
+ENV MYSQL_PASSWORD=alumno
 
 EXPOSE 3306
