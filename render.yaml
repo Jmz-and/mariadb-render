@@ -3,7 +3,7 @@ services:
     name: mariadb-practica
     env: docker
     plan: free
-    dockerfilePath: Dockerfile
+    image: mariadb:latest
     autoDeploy: true
     envVars:
       - key: MARIADB_ROOT_PASSWORD
